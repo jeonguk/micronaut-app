@@ -6,7 +6,7 @@
 $ ./gradlew run
 ```
 
-### GraalVM Docker Run
+### GraalVM Docker build Run
 
 ```
 $ ./gradlew assemble
@@ -17,14 +17,16 @@ $ docker build . -t complete
 ```
 
 ```
-docker run -p 8080:8080 -t complete
+$ docker run -p 8080:8080 -t complete
 ```
 
+### Check
 ```
 $ time curl localhost:8080/conferences/random
 ```
 
-## Test
+
+## Test Case
 
 ```
 ./gradlew test
