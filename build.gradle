@@ -38,6 +38,7 @@ dependencies {
     compileOnly "io.micronaut:micronaut-inject-java"
     compileOnly "com.oracle.substratevm:svm"
     runtime "io.micronaut:micronaut-graal"
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.3.1'
     runtime "ch.qos.logback:logback-classic:1.2.3"
     testCompile "junit:junit:4.12"
     testCompile "io.micronaut:micronaut-inject-java"
